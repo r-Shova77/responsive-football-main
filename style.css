@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+/* main banner style */
+.banner {
+  width: 100%;
+  background-color: rgba(33, 33, 165, 0.979);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+.top-banner {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.banner-text {
+  width: 45%;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 64px;
+  color: whitesmoke;
+  margin-bottom: 27px;
+}
+.watch-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  height: 44px;
+  background-color: #e02c6d;
+}
+.watch-btn i {
+  margin-left: 10px;
+}
+
+a {
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #ffffff;
+}
+.main-photo {
+  width: 45%;
+  margin: 2rem;
+}
+.main-photo:hover {
+  transform: scale(1.1) rotate(12deg);
+  transition: all 0.3s ease-in-out;
+}
+.main-photo img {
+  width: 80%;
+}
+/* Banner2 style */
+.banner2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.players {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 27px;
+  grid-column-gap: 30px;
+}
+.players-card {
+  width: 330px;
+  height: 474px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-img img {
+  width: 300px;
+  height: 256px;
+  padding: 15px;
+}
+.player-Detaile {
+  margin-left: 15px;
+  width: 300px;
+  height: 154px;
+  margin-bottom: 33px;
+}
+.player-Detaile h1 {
+  color: #18191f;
+  font-size: 28px;
+  line-height: 40px;
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+.player-Detaile p {
+  color: #6c6c6c;
+  font-size: 16px;
+  margin: 0;
+}
+/* Footer style */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(233, 230, 230); */
+}
+.banner3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 483.87px;
+  height: 213px;
+  padding: 0;
+  margin-top: 50px;
+  margin-bottom: 63px;
+}
+.footer-img {
+  margin-bottom: 20px;
+}
+.footer-img img {
+  display: flex;
+  width: 483.87px;
+  height: 110px;
+  margin: 20px 0px;
+}
+
+.scoial-icon a i {
+  flex: none;
+  background: #969bab;
+  order: 0;
+  align-self: center;
+  flex-grow: 0;
+  margin: 0px 10px;
+  padding: 5px;
+  border-radius: 50%;
+}
+.copy-right {
+  font-weight: 400;
+  line-height: 24px;
+  font-style: 18px;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 668px) {
+  .banner {
+    width: 100%;
+    height: 100vh;
+  }
+  .top-banner {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 4rem; */
+    /* background: #ccc; */
+  }
+  .banner-text {
+    width: 100%;
+  }
+  .banner-title {
+    font-size: 50px;
+  }
+
+  .main-photo {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .main-photo img {
+    width: 100%;
+  }
+  /* banner 2 */
+  .banner2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .players {
+    /* margin-top: 2rem; */
+    /* display: grid; */
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 2rem;
+    /* grid-column-gap: 30px; */
+  }
+}
